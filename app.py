@@ -1,4 +1,4 @@
-from flask import Flask, Response, render_template, request, jsonify
+from flask import Flask, Response, render_template, request, jsonify #sudo apt install -y python3-flask python3-picamera2 python3-serial
 from picamera2 import Picamera2
 from picamera2.encoders import MJPEGEncoder
 from picamera2.outputs import FileOutput
@@ -8,10 +8,6 @@ import os
 import json
 import time
 import threading
-
-# Platform-specific imports
-
-
 import serial
 import numpy as np
 
