@@ -44,6 +44,7 @@ config = picam2.create_video_configuration(
 )
 picam2.configure(config)
 picam2.start()
+time.sleep(2)
 
 def generate_frames():
     while True:
